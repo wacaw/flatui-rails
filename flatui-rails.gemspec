@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "sass-rails", ">= 3.2.0"
   spec.add_dependency "railties", ">= 3.1"
-  spec.add_dependency "bootstrap-sass", ">= 2.2.2"
+  spec.add_dependency "bootstrap-sass", ">= 2.3.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
