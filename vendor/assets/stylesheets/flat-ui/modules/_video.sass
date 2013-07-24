@@ -136,26 +136,26 @@ body.vjs-full-window
   width: 58px
 
 .vjs-paused .vjs-play-control
-  background: url(asset-path('video/play.png',image)) center -31px no-repeat
+  background: url(asset-path('video/play.png')) center -31px no-repeat
   background-size: 16px 64px
   &:hover
     div
       opacity: 0
   div
-    background: url(asset-path('video/play.png',image)) center 15px no-repeat
+    background: url(asset-path('video/play.png')) center 15px no-repeat
     background-size: 16px 64px
     height: 47px
     +transition(opacity .25s)
 
 .vjs-playing .vjs-play-control
-  background: url(asset-path('video/pause.png',image)) center -31px no-repeat
+  background: url(asset-path('video/pause.png')) center -31px no-repeat
   background-size: 15px 64px
   &:hover
     div
       opacity: 0
 
   div
-    background: url(asset-path('video/pause.png',image)) center 15px no-repeat
+    background: url(asset-path('video/pause.png')) center 15px no-repeat
     background-size: 15px 64px
     height: 47px
     +transition(opacity .25s)
@@ -170,7 +170,7 @@ body.vjs-full-window
     margin: .5em auto 0
 
 .vjs-mute-control
-  background: url(asset-path('video/volume-full.png',image)) center -48px no-repeat
+  background: url(asset-path('video/volume-full.png')) center -48px no-repeat
   background-size: 16px 64px
   cursor: pointer!important
   position: absolute
@@ -186,10 +186,10 @@ body.vjs-full-window
   &.vjs-vol-0
     &,
     div
-      background-image: url(asset-path('video/volume-off.png',image))
+      background-image: url(asset-path('video/volume-off.png'))
 
   div
-    background: $controls-color url(asset-path('video/volume-full.png',image)) no-repeat center 2px
+    background: $controls-color url(asset-path('video/volume-full.png')) no-repeat center 2px
     background-size: 16px 64px
     height: 18px
     +transition(opacity .25s)
@@ -292,7 +292,7 @@ body.vjs-full-window
   float: right
 
 .vjs-fullscreen-control
-  background-image: url(asset-path('video/fullscreen.png',image))
+  background-image: url(asset-path('video/fullscreen.png'))
   background-position: center -47px
   background-size: 15px 64px
   cursor: pointer!important
@@ -307,7 +307,7 @@ body.vjs-full-window
 
   div
     height: 18px
-    background: url(asset-path('video/fullscreen.png',image)) no-repeat center 2px
+    background: url(asset-path('video/fullscreen.png')) no-repeat center 2px
     background-size: 15px 64px
     +transition(opacity .25s)
 
